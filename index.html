@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<table border="0" width="100%" height"8%">
+<tr bgcolor="#01A5F9 ">
+<th><img src="logo.jpg"  width="200" height="100">
+</th>
+<td><input type="text" placeholder="search"></td>
+<th><font color="white"><a href="index3.html">login & signup</th>
+<th><font color="white">more</th>
+<th><img src="cart.png" width="160" height="100"></th>
+</tr>
+</table>
+<div class="card">
+  <div class="top-section">
+    <img id="image-container" src="1.png" alt="">
+    <div class="nav">
+      <img onclick="change_img(this)" src="1.png" alt="">
+      <img onclick="change_img(this)" src="2.png" alt="">
+      <img onclick="change_img(this)" src="3.png" alt="">
+    </div>
+    <div class="price">$80</div>
+  </div>
+
+  <div class="product-info">
+    <div class="name">Sanglasses</div>
+    <div class="dis">Awesome Men Sanglasses</div>
+    <a class="btn" href="#">Add to Cart</a>
+  </div>
+
+</div>
+  <script type="text/javascript">
+    var container = document.getElementById("image-container");
+    function change_img(image) {
+      container.src = image.src;
+    }
+  </script>
+
+  </body>
+</html>
